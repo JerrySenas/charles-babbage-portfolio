@@ -133,6 +133,11 @@ onMounted(() => {
             </div>
             <button type="submit" class="submit-btn pl-5 pr-5" :disabled="isLoading">{{ isLoading? "Sending..." : "Submit" }}</button>
           </div>
+          
+          <!-- reCaptcha Checkbox -->
+          <div class="d-flex justify-content-end mt-2">
+            <div ref="recaptchaContainer"></div>
+          </div>
         </form>
       </div>
     </div>
