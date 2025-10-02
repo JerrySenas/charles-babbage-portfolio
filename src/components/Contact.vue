@@ -12,7 +12,7 @@ const email = ref("");
 const message = ref("");
 const isLoading = ref(false);
 
-const SITE_KEY = "6LfnBNwrAAAAAHyiz8R_Qa_vj5EK3GgQXVV3rVJV";
+const SITE_KEY = "6LfND9wrAAAAAEb_EVaZgBJyRzpsNKlqij0mGN7f";
 const recaptchaContainer = ref(null);
 const recaptchaWidgetId = ref(null);
 const recaptchaToken = ref("");
@@ -133,7 +133,7 @@ onMounted(() => {
             </div>
             <button type="submit" class="submit-btn pl-5 pr-5" :disabled="isLoading">{{ isLoading? "Sending..." : "Submit" }}</button>
           </div>
-          
+
           <!-- reCaptcha Checkbox -->
           <div class="d-flex justify-content-end mt-2">
             <div ref="recaptchaContainer"></div>
