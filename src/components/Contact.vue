@@ -12,7 +12,7 @@ const email = ref("");
 const message = ref("");
 const isLoading = ref(false);
 
-const SITE_KEY = "6LfND9wrAAAAAEb_EVaZgBJyRzpsNKlqij0mGN7f";
+const SITE_KEY = "6LfYENwrAAAAADWHachZhYGQu4Q_4vof5Z50vthV";
 const recaptchaContainer = ref(null);
 const recaptchaWidgetId = ref(null);
 const recaptchaToken = ref("");
